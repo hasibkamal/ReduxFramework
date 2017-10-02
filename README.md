@@ -1,14 +1,29 @@
-# Attend the Redux Framework Webinar
-We are holding a webinar Saturday, February 15 @ 19:00 GMT. Please stop by to learn all things Redux and get any help you may need or want. Registration is now open: https://www2.gotomeeting.com/register/180324930
+## Redux Options Framework [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/redux-framework.svg?maxAge=2592000)]() [![WordPress](https://img.shields.io/wordpress/v/redux-framework.svg?maxAge=2592000)]() [![Build Status](https://travis-ci.org/reduxframework/redux-framework.png?branch=master)](https://travis-ci.org/reduxframework/redux-framework) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Slack](https://redux-slackin.herokuapp.com/badge.svg)](https://redux-slackin.herokuapp.com) 
 
- 
---------
+[Get it in the WordPress plugin repo](https://wordpress.org/plugins/redux-framework/)
 
+[Generate your own Underscores + Redux Framework based WordPress theme](http://build.reduxframework.com)
 
-
-# Redux Options Framework [![Build Status](https://travis-ci.org/ReduxFramework/ReduxFramework.png?branch=master)](https://travis-ci.org/ReduxFramework/ReduxFramework) [![Stories in Ready](https://badge.waffle.io/ReduxFramework/ReduxFramework.png?label=ready)](https://waffle.io/ReduxFramework/ReduxFramework)
+[Join the Community in Slack](https://redux-slackin.herokuapp.com/)
 
 WordPress options framework which uses the [WordPress Settings API](http://codex.wordpress.org/Settings_API "WordPress Settings API"), Custom Error/Validation Handling, Custom Field/Validation Types, and import/export functionality.
+
+## Posting Guidelines for issues and questions ##
+When using our Issue Tracker, you may ask questions where you may be a bit lost or need help understanding the documentation. If, however, you find a bug we require you to read and provide the information contained in our [Contributing Guidelines](https://github.com/ReduxFramework/redux-framework/blob/master/CONTRIBUTING.md). If you do not provide this information, we will request it before we can support you.
+
+If you are stuck in some of your own code, or need help with PHP and anything else not Redux specific, we request you purchase some [Premium Support](http://reduxframework.com/extension/premium-support/) and we will be happy to assist you. If we feel the issue is outside of our scope we will suggest you to purchase some [Premium Support](http://reduxframework.com/extension/premium-support/) in order for us to serve you.
+
+## Kickstart Your Development ##
+
+Are you authoring a theme, or plugin?  Visit the  [Redux Builder](http://build.reduxframework.com) site and get started!
+
+## Demo Your Products ##
+We help you create a seamless user experience for your users to demo your WordPress products.  Not only that, we help you make sure they’re engaged, turning them into a potential customer.  Visit [wpdemo.io/](http://wpdemo.io/)
+
+## Documentation ##
+
+Need a little help with Redux?  Come check out our brand new documentation site at  [docs.reduxframework.com](http://docs.reduxframework.com), chock full of tutorials and examples!
+
 
 ## SMOF (Simple Modified Option Users) Converter! ##
 
@@ -22,7 +37,7 @@ https://github.com/ReduxFramework/ReduxFramework/wiki/translate
 
 ## Getting Started with Redux ##
 
-ReduxFramework has been built from the groud up to be the most flexible framework around. You can run it as an auto-updating plugin, or embed it inside your plugin or theme. It allows for multiple copies of itself within the same WordPress instance. For a guide on getting started please refer to [http://reduxframework.com/docs/getting-started/](http://reduxframework.com/docs/getting-started/).
+ReduxFramework has been built from the ground up to be the most flexible framework around. You can run it as an auto-updating plugin, or embed it inside your plugin or theme. It allows for multiple copies of itself within the same WordPress instance. For a guide on getting started please refer to [https://github.com/ReduxFramework/redux-framework/wiki/Getting-Started](https://github.com/ReduxFramework/redux-framework/wiki/Getting-Started).
 
 You can also [download our sample theme available here](https://github.com/ReduxFramework/ReduxSampleTheme) to start developing right away.
 
@@ -35,7 +50,7 @@ ReduxFramework has just released to the WordPress Plugins directory. Please spre
 
 If you can, please donate to help support the ongoing development of Redux Framework!
 
-[![Donate to the framework](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Donate to the framework")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N5AD7TSH8YA5U)
+[![Donate to the framework](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Donate to the framework")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MMFMHWUPKHKPW)
 
 ## Features ##
 
@@ -68,303 +83,58 @@ If you can, please donate to help support the ongoing development of Redux Frame
 
 ## Are you using Redux? ##
 
-Send me an email at ghost1227@reduxframework.com so I can add you to our user spotlight!
+Send us an email at info@reduxframework.com so we can add you to our showcase!
 
 ## Changelog ##
 
-### Master ###
+See [Changelog.md](https://github.com/ReduxFramework/redux-framework/blob/master/CHANGELOG.md)
 
-= 3.1.6.2 =
-* Fixed:    On and Off for switch field not displaying language translation.
-* Fixed:    email validation allowing a blank field.
+## Running PHP Unit tests ##
 
-= 3.1.6.1 =
-* Added:    Dismiss option to admin notices (internal function)
+The tests are built using [wordpress's make subversion repository](https://make.wordpress.org/core/handbook/automated-testing/)
 
-= 3.1.6 =
-* Fixed:    CSS spacing issue
-* Fixed:    Customizer now works and doesn't break other customizer fields outside of Redux.
-* Fixed:    Several minor bug fixes
-* Added:    Metabox support via extension http://reduxframework.com/extensions/
-* Added:    Admin-bar menu
-* Fixed:    Section field now folds.
-* Fixed:    wp_content_dir path now handles double forward slashes.
-* Fixed:    Typography field missing italics in Google fonts.
-* Fixed:    Default color in border field not saving properly.
-* Fixed:    hex2rgba in class.redux_helpers.php changed to static.
-* Fixed:    'sortable' field type not saving options as default.
-* Fixed:    Specified default color not set when clicking the color box default button.
-* Fixed:    Sorter field options are now saved as default in database.
-* Fixed:    Issues with checkboxes displaying default values instead of labels.
-* Fixed:    Outstanding render issues with spacing field.
-* Fixed:    Plugins using Redux from load failure.
-* Fixed:    'not_empty' field validation.
-* Fixed:    Media field.
-* Added:    'read-only' option for media text field.
-* Added:    'mode' option to image_select, so CSS output element may be specified.
-* Added:    Admin Bar menu for option panel.
-* Modified: Removed raw_align field and added align option to raw field.  See wiki for more info.
-* Modified: media field 'read-only' to 'readonly' to vonform to HTML standards.
-* Removed:  EDD extension. It never belonged in Core and will be re-released as a downloadable extension shortly
-* Removed:  Group field, temporarily.
-* Removed:  wp_get_current_user check.  See https://github.com/ReduxFramework/ReduxFramework/wiki/How-to-fix-%22Fatal-error%3A-Call-to-undefined-function-wp_get_current_user%28%29-%22
- 
-= 3.1.5 =
-* Typography font arrays may not contain comma spaces.
-* Merge in pull request - 542, code cleanup and better readability
-* Change how HTML is output to support metaboxes
-* CSS only on pages that matter, better checks.
-* font-backup in typography now appends to font-family in output and compiler.
-* More fixes for Google font css outputting.
-* Addded output and compiler to field_image_select.  Images will be output as 'background-image'.
-* Fixed output in field_background.
-* Prevent standard fonts from outputting to Google fonts CSS call.
-* class_exists in field_section checking for incorrect classname.
-* sample_config fix.
-* Compiler not outputting CSS without output set to comthing other than false.
-* Google fonts not rendering on frontend.
-* Rewrote sample_config as a class
+`/var/www/wordpress-develop` as the destination for the core test files.
+First download the wordress core tests repository, for these files.
 
-= 3.1.4 =
-* Fixed error in redux-framework.php.
-* Added select_image field.
+```bash
+cd /var/www
+svn co http://develop.svn.wordpress.org/trunk/ wordpress-develop
+```
 
-= 3.1.3 =
-* Fixed a few undefined variables
-* Removed old code from the repo.
-* Fix for validation.
-* Remove the compiler hook by default.
-* Fix to sortable field.
-* Added an extra check for link color. Removes user error.
-* Localization updates.
-* Error in slides.
-* Fixed the info box bug with spacing and padding.
-* Fixed the first item in each section having WAY too much padding.  ;)
-* Fixed section reset issue where values weren't being saved to the db properly.
+In the newly created `/var/www/wordpress-develop` directory rename
+`wp-tests-config-sample.php` to `wp-tests-config.php`. Now add your database
+details to the new file:
+```php
+// WARNING WARNING WARNING!
+// These tests will DROP ALL TABLES in the database with the prefix named below.
+// DO NOT use a production database or one that is shared with something else.
 
-= 3.1.2 =
-* Feature - Sortable select boxes!
-* Feature - Reset a section only or the whole panel!
-* New Field - RGBA Color Field!
-* Improvement - Use of REM throughout.
-* Fixed Typography - Fix output option and various small bugs.
-* Fixed Border - Fix output option and various small bugs.
-* Fixed Dimensions - Fix output option and various small bugs.
-* Fixed Image_select - Various small bugs.
-* Fixed Slides - Various small bugs.
-* Fixed Sortable - Using native jQuery UI library same as within WordPress.
-* Fixed Slider and Spinner Input Field - Values now move to the closest valid value in regards to the step, automatically.
-* Fixed Ace Editor
-* FEATURE - All CSS/JS files are compiled into a single file now! Speed improvements for the backend. 
-* Fix in how WordPress data is received, improved some output.
-* Fix for various fields not triggering fold/compiler/save.
-* Fixed elusive icons to use the new version and classes.
-* Fixed media thumb to only be the thumbnail version.
-* Fixed admin https error with WordPress core not renaming URL.
-* Placeholders throughout the framework are now properly there.
-* Feature - Setting to not save defaults to database on load.
-* Fixed - Computability issue with GT3 builder.
-* Fixed localization issue with default values.
-* Language - Added Russian
-* Feature - Media now can have any content type passed in to limit content types.
-* Allow negative values in typography and other fields.
-* WordPress 3.8 computability.
-* CSS validation issue.
-* Feature - User contributed text direction feature.
-* EDD Extension now fully function for plugins or themes.
-* Removed get_theme_data() fallbacks, we're well pass WordPress 3.4 now.  ;)
-* A ton of other small updates and improvements.
+define( 'DB_NAME', 'wordpress-tests' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', 'passowrd' );
+define( 'DB_HOST', 'localhost' );
+define( 'DB_CHARSET', 'utf8' );
+define( 'DB_COLLATE', '' );
+```
+ - <b>n.b.</b> you may need to create the database first.
+ - <b>n.b. n.b.</b> also note that the database used will be emptied on each run.
 
-= 3.1.0 =
-* Fix Issue 224 - Image Select width was breaking the panel.
-* Fix Issue 181 - Broken panel in firefox
-* Fix Issue 225 - 0px typography bug. Thanks @partnuz.
-* Fix Issue 228 - Resolved a duplicated enqueue on color_link field. Thanks @vertigo7x.
-* Fix Issue 231 - Field spacing bug fixes.
-* Fix Issue 232 & 233 - Dimensions: bug fix with units and multiple units. Thanks @kpodemski
-* Fix Issue 234 - Pass options as a ref so validating actions can modify/sanitize them. Thanks @ZeroBeeOne
-* Fix Issue 222 - Tab cookie function wasn't working.
-* Feature - Pass params to Select2. Thanks @andreilupu
-* Fix Issue 238 - Fix for conditional output. Thanks @partnuz.
-* Fix Issue 211 - Google Web font wasn't loading at first init of theme.
-* Fix Issue 210 - Elusive Icons update. Changed classes to force use of full elusive name.
-* Fix Issue 247 - Media thumbnails were not showing. Also fixed media to keep the largest file, but display the small version in the panel as a thumb. Thanks @kwayyinfotech.
-* Fix Issue 144 - JS error when no item found in slider.
-* Fix Issue 246 - Typography output errors.
-* Feature & Issue 259 - Multi-Text now support validation!
-* Fix Issue 248/261 - Links color issue. Also fixed color validation.
-* Feature & Issue 262 - Now registered sidebars can be used as a data type.
-* Fix Issue 194/276 - Custom taxonomy terms now passing properly. Thanks @kprovance.
-* Feature & Issue 273 - Argument save_defaults: Disable the auto-save of the default options to the database if not set.
-* Feature - Docs now being moved to the wiki for community participation.
-* Issue 283 - Date placeholder. Thanks @kprovance.
-* Issue 285 - HTTPS errors on admin. Known WordPress bug. Resolved.
-* Fix Issue 288 - Float values now possible for border, dimensions, and spacing.
-* Feature - Media field can now accept non-image files with a argument being set.
-* Fix Issue 252 - Post Type data wasn't working properly. Thanks @Abu-Taymiyyah.
-* Fix Issue 213 - Radio and Button Set wasn't folding.
+Set the `WP_TESTS_DIR` environment variable so that the `redux-framework` test bootstrap file can find the wordpress core tests:
+```bash
+export WP_TESTS_DIR='/var/www/wordpress-develop/tests/phpunit/includes/'
+```
 
-= 3.0.9 =
-* Feature - Added possibility to set default icon class for all sections and tabs.
-* Feature - Make is to the WP dir can be moved elsewhere and Redux still function.
-* Added Spanish Language. Thanks @vertigo7x.
-* Fix Issue 5 - Small RGBA validation fix.
-* Fix Issue 176 - Fold by Image Select. Thanks @andreilupu.
-* Fix Issue 194 - Custom taxonomy terms in select field.
-* Fix Issue 195 - Border defaults not working.
-* Fix Issue 197 - Hidden elements were showing up on a small screen. Thanks @ThinkUpThemes.
-* Fix issue 200 - Compiler not working with media field.
-* Fix Issue 201 - Spacing field not using default values.
-* Fix Issue 202 - Dimensions field not using units.
-* Fix Issue 208 - Checkbox + Required issue.
-* Fix Issue 211 - Google Font default not working on page load.
-* Fix Issue 214 - Validation notice not working for fields.
-* Fix Issue 181/224 - Firefox 24 image resize errors.
-* Fix Issue 223 - Slides were losing the url input field for the image link.
-* Fix - Various issues in the password field.
-* Fixed various spelling issues and typos in sample-config file.
-* Initialize vars before extract() - to shut down undefined vars wargnings.
-* Various other fixes.
+You should now be able to run the `redux-framework` unit tests:
+```bash
+redux-framework$ phpunit
+Welcome to the TIVWP Test Suite
+Version: 1.0
 
-= 3.0.8 =
-* Version push to ensure all bugs fixes were deployed to users. Various.
+Tests folder: /var/www/wordpress-develop/tests/phpunit/includes/
 
-= 3.0.7 =
-* Feature - Completely redone spacing field. Choose to apply to sides or all at once with CSS output!
-* Feature - Completely redone border field. Choose to apply to sides or all at once with CSS output!
-* Feature - Added opt-in anonymous tracking, allowing us to further analyze usage.
-* Feature - Enable weekly updates of the Google Webfonts cache is desired. Also remove the Google Webfont files from shipping with Redux. Will re-download at first panel run to ensure users always have the most recent copy.
-* Language translation of german updated alone with ReduxFramework pot file.
-* Fix Issue 146 - Spacing field not storing data.
-* Fix - Firefox field description rendering bug.
-* Fix - Small issue where themes without tags were getting errors from the sample data.
-
-= 3.0.6 =
-* Hide customizer fields by default while still under development.
-* Fix Issue 123 - Language translations to actually function properly embedded as well as in the plugin.
-* Fix Issue 151 - Media field uses thumbnail not full image for preview. Also now storing the thumbnail URL. Uses the smallest available size as the thumb regardless of the name.
-* Fix Issue 147 - Option to pass params to select2. Contributed by @andreilupu. Thanks!
-* Added trim function to ace editor value to prevent whitespace before and after value keep being added
-* htmlspecialchars() value in pre editor for ace. to prevent html tags being hidden in editor and rendered in dom
-* Feature: Added optional 'add_text' argument for multi_text field so users can define button text.
-* Added consistent remove button on multi text, and used sanitize function for section id
-* Feature: Added roles as data for field data
-* Feature: Adding data layout options for multi checkbox and radio, we now have quarter, third, half, and full column layouts for these fields.
-* Feature: Eliminate REDUX_DIR and REDUX_URL constants and instead created static ReduxFramework::$\_url and ReduxFramework::$\_dir for cleaner code.
-* Feature: Code at bottom of sample-config.php to hide plugin activation text about a demo plugin as well as code to demo how to hide the plugin demo_mode link.
-* Started work on class definitions of each field and class. Preparing for the panel builder we are planning to make.
-
-= 3.0.5 =
-* Fixed how Redux is initialised so it works in any and all files without hooking into the init function.
-* Issue #151: Added thumbnails to media and displayed those instead of full image.
-* Issue #144: Slides had error if last slide was deleted.
-* Color field was outputting hex in the wrong location.
-* Added ACE Editor field, allowing for better inline editing.
-
-= 3.0.4 =
-* Fixed an odd saving issue.
-* Fixed link issues in the framework
-* Issue #135: jQuery UI wasn't being properly queued
-* Issue #140: Admin notice glitch. See http://reduxframework.com/2013/10/wordpress-notifications-custom-options-panels/
-* Use hooks instead of custom variable for custom admin CSS
-* Added "raw" field that allows PHP or a hook to embed anything in the panel.
-* Submenus in Admin now change the tabs without reloading the page.
-* Small fix for multi-text.
-* Added IT_it and RO_ro languages.
-* Updated readme file for languages.
-
-= 3.0.3 =
-* Fixed Issue #129: Spacing field giving an undefined.
-* Fixed Issue #131: Google Fonts stylesheet appending to body and also to the top of the header. Now properly placed both at the end of the head tag as to overload any theme stylesheets.
-* Fixed issue #132 (See #134, thanks @andreilupu): Could not have multiple WordPress Editors (wp_editor) as the same ID was shared. Also fixed various styles to match WordPress for this field.
-* Fixed Issue #133: Issue when custom admin stylesheet was used, a JS error resulted.
-
-= 3.0.2 =
-* Improvements to slides, various field fixes and improvements. Also fixed a few user submitted issues.
-
-= 3.0.1 =
-* Backing out a bit of submitted code that caused the input field to not properly break.
-
-= 3.0.0 =
-* Initial WordPress.org plugin release.
-
-== Upgrade Notice ==
-
-= 3.0 =
-Redux is now hosted on WordPress.org! Update in order to get proper, stable updates.
-
-* Removed get() and show()
-* Fixed huge performance bug
-* More bugfixes
-* Fixed spacing field
-* Converted Redux to run as an auto-updating plugin. Getting ready to post to WordPress.org
-* Fixed the auto updater to properly show changes since the last update
-* Various fields including link_color, spacing, dimensions
-* Compiler hooks to allow developers to generate CSS files only when needed
-* Stability and standardizing in HTML output throughout
-* PHP/CSS/JS fixes
-* Compress JS and use LESS (and compressed CSS) throughout
-
-### Version 3.0.0 Beta (September 12, 2013)
-
-* Massive code overhaul
-* Replaced redundant field types with data elements
-* Migrated to company repo
-* Added several new storage methods
-* Numerous bugfixes
-* Renamed std argument to default
-* Added MP6 support
-* Complete CSS rewrite
-* Globals are now conditional
-* Added nesting support
-* Added repeatable field
-* Restyled Dev Mode
-* Added System Info tab
-* Added compiler hooks
-* Added style and icon support to info field
-* Switched to Elusive Icons
-* Huge performance updates
-
-### Version 2.0.1 Final (September 1, 2013) ###
-
-* Added option to override ```icon_type``` per icon
-* Minor bug/versioning fixes
-* Added Font Awesome intro
-* Added ```raw_html``` option
-* Added ```text_sortable``` option
-* Switched from Aristo to Bootstrap jQuery UI theme
-
-### Version 2.0.0 (January 31, 2013) ###
-
-* Fixed SSL error which occurred occasionally with Google Webfonts 
-* Added optional flag for ```wpautop``` on editors
-* Added password field type
-* Added ```checkbox_hide_all``` option
-* Added WP3.5 media chooser
-* Added Google webfonts previews
-* Updated to WP3.5 color picker
-* Minor style tweaks
-* Added graphical 'switch' option for checkboxes
-* Removed dependency on class extension for fields
-* Deprecated icons in favor of iconfonts
-
-### Version 1.0.0 (December 5, 2012) ###
-
-* Based on NHP Theme Options Framework v1.0.6
-* Cleaned up codebase
-* Changed option group name to allow multiple instances
-* Changed checkbox name attribute to id
-* Added rows attribute to textareas
-* Removed extra linebreak in upload field
-* Set default menu position to null to avoid conflicts
-* Added sample content for dashboard credit line
-* Minor style changes
-* Changed name of upload button
-* Refactored Google Webfonts function
-* Replaced ```stylesheet_override``` with ```admin_stylesheet```
-* Made text domain a constant
-* Removed PHP closing tags to prevent issues with newlines
-* Added option to define custom start tab
-
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/dbb3b94f2607cb4a119a7863c230a98e "githalytics.com")](http://githalytics.com/ReduxFramework/ReduxFramework)
+Installing...
+...
+Configuration read from
+redux-framework/phpunit.xml
+...
+```
